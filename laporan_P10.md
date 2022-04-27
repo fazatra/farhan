@@ -168,7 +168,7 @@ public class QueueMain {
         System.out.print("Masukkan Kapasitas Queue = ");
         int n = sc.nextInt();
         int pilih;
-        Tugas1_Queue Q = new Tugas1_Queue(n);
+        Queue Q = new Queue(n);
         do {
             menu();
             pilih = sc.nextInt();
